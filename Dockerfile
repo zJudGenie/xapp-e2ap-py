@@ -4,6 +4,11 @@ ARG SCHEMA_PATH=schemas
 ARG XAPP_DIR=python_xapp
 ARG DBAAS_SERVICE_HOST=10.0.2.12
 ARG DBAAS_SERVICE_PORT="6379"
+ARG BER_TRESHOLD=0.3
+ARG TARGET_MCS_BAD_CHANN=2
+ARG TARGET_MCS_GOOD_CHANN=10
+ARG MIN_MCS=0
+ARG MAX_MCS=15
 
 #==================================================================================
 #FROM ubuntu:20.04
